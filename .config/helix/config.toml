@@ -1,0 +1,12 @@
+theme = "catppuccin_mocha"
+
+[editor]
+line-number = "relative"
+
+cursorline = true
+cursorcolumn = true
+
+mouse = false
+
+[editor.file-picker]
+hidden = false
