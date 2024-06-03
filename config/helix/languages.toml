@@ -1,6 +1,18 @@
 [[language]]
+name = "rust"
+
+[language.auto-pairs]
+'(' = ')'
+'{' = '}'
+'[' = ']'
+'"' = '"'
+"'" = "'"
+
+
+[[language]]
 name = "git-commit"
 language-servers = [ "ltex-ls" ]
+
 
 [[language]]
 name = "markdown"
