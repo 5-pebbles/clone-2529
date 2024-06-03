@@ -1,0 +1,15 @@
+[[language]]
+name = "git-commit"
+language-servers = [ "ltex-ls" ]
+
+[[language]]
+name = "markdown"
+language-servers = [ "ltex-ls" ]
+file-types = ["md"]
+scope = "text.markdown"
+
+
+[language-server.ltex-ls.config.ltex ]
+additionalRules = { enablePickyRules = true }
+disabledRules = { "en-US" = [ "SENTENCE_WHITESPACE", "SPACE_BEFORE_PARENTHESIS", "UPPERCASE_SENTENCE_START", "DASH_RULE", "ELLIPSIS" ] }
+
